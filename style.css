@@ -1,0 +1,79 @@
+.logo {
+    height: 60px;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+/* HLAVIČKA */
+header {
+    background-color: #93ff85;
+    color: #f0f5f0;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* MENU */
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #e0f0e0;
+    margin-right: 15px;
+    padding: 8px 12px;
+    background-color: #3b6635;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #1d331b;
+    transform: scale(1.05);
+}
+
+
+
+/* OBSAH */
+main {
+    padding: 30px;
+}
+
+/* OKÉNKO */
+.box {
+    background-color: #fff0b5;
+    padding: 25px;
+    border-radius: 12px;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* KLIKACÍ OKÉNKO */
+.clickable {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.clickable:hover {
+    background-color: #e0cb75;
+    transform: scale(1.02);
+}
+
+/* FOOTER */
+footer {
+    background-color: #93ff85;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
